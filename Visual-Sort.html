@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Visual-Sort.css" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body>
+
+    <button type="button" class="btn">VISUAL SORT</button>
+    
+    <div class="container">
+      <div class="bars_container" id="bars_container"></div>
+    </div>
+<div class="center">
+    <div class="btn_container">
+      <div class="buttons_container">
+     
+        <input
+          type="range"
+          id="slider"
+          min ="50"
+          max="55"
+          step="1"
+          value="55"
+        />
+
+        <select name="" id="speed">
+          <option value="250">Slow</option>
+          <option value="100">Medium</option>
+          <option value="50">Fast</option>
+        </select>
+        
+        <select name="" id="algo">
+         
+          <option value="bubble">Bubble Sort</option>
+          <option value="insertion">Insertion Sort</option>
+          <option value="heap">Heap Sort</option>
+          <option value="merge">Merge Sort</option>
+          <option value="quick">Quick Sort</option>
+        </select>
+        <button id="randomize_array_btn">Randomize Array</button>
+        <button id="sort_btn">Sort</button>
+      </div>
+    </div>
+
+    </div>
+
+
+    <div class="about-section">
+        <h1>About Our Project</h1>
+        <p>Visual Sort is used to visualise various types of sorting methods.</p>
+        <p>Select the type of sorting method you want to visualise and enjoy the show.</p>
+      </div>
+      
+     
+      </div>
+
+    <script src="Visual-Sort.js"></script>
+  </body>
+</html>

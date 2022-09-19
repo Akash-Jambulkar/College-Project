@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.btn{
+    padding: 10px 60px;
+    font-size: 32px;
+    font-family:fantasy;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin : 0 auto;
+    margin-bottom : 20px;
+    
+}
+
+.btn_container{
+    
+    padding : 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    margin : 0 auto;
+    margin-top: 100px;
+
+}
+
+.container{
+
+    max-width: 100vw;
+    height: 50vh;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    color: yellowgreen;
+}
+
+.bars_container{
+    border: 2px solid black;
+    padding : 10px;
+    display: flex;
+    flex-direction: row;
+    color: yellowgreen;
+}
+
+.bar{
+    width: 10px;
+    background-color: lavenderblush;
+    margin: 0 1px;
+    border-radius: 2px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+
+.buttons_container > button, select{
+    width: 200px;
+    height: 30px;
+    background-color:white;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition:  0.2s ease-in-out;
+}
+
+.buttons_container{
+    margin-top: 5%;
+}
+
+
+button:hover{
+    background-color: #56697b;
+    color: black;
+}
+  
+  .about-section {
+    padding: 10px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .center{
+    margin-left : 250px ;
+
+
+}
+
+ 
