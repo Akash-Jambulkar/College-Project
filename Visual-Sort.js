@@ -7,7 +7,7 @@ let slider = document.getElementById("slider");
 let minRange = 1;
 let maxRange = slider.value;
 let numOfBars = slider.value;
-let heightFactor = 8;
+let heightFactor = 3;
 let speedFactor = 150;
 let unsorted_array = new Array(numOfBars);
 
@@ -74,7 +74,7 @@ async function bubbleSort(array) {
       if (array[j] > array[j + 1]) {
         for (let k = 0; k < bars.length; k++) {
           if (k !== j && k !== j + 1) {
-            bars[k].style.backgroundColor = "white";
+            bars[k].style.backgroundColor = "rgb(37, 155, 59)";
           }
         }
         let temp = array[j];
@@ -114,7 +114,7 @@ async function partition(items, left, right) {
 
   for (let i = 0; i < bars.length; i++) {
     if (i != pivotIndex) {
-      bars[i].style.backgroundColor = "white";
+      bars[i].style.backgroundColor = "rgb(37, 155, 59)";
     }
   }
 
@@ -152,7 +152,7 @@ async function quickSort(items, left, right) {
   }
 
   for (let i = 0; i < bars.length; i++) {
-    bars[i].style.backgroundColor = "white";
+    bars[i].style.backgroundColor = "rgb(37, 155, 59)";
   }
   return items;
 }
@@ -174,7 +174,7 @@ async function InsertionSort(array) {
 
       for (let k = 0; k < bars.length; k++) {
         if (k != j + 1) {
-          bars[k].style.backgroundColor = "white";
+          bars[k].style.backgroundColor = "rgb(37, 155, 59)";
         }
       }
       j = j - 1;
@@ -187,7 +187,7 @@ async function InsertionSort(array) {
   }
 
   for (let k = 0; k < bars.length; k++) {
-    bars[k].style.backgroundColor = "white";
+    bars[k].style.backgroundColor = "rgb(37, 155, 59)";
   }
   return array;
 }
@@ -204,7 +204,7 @@ async function HeapSort(array) {
     await heapify(array, i, 0);
   }
   for (let k = 0; k < bars.length; k++) {
-    bars[k].style.backgroundColor = "white";
+    bars[k].style.backgroundColor = "rgb(37, 155, 59)";
     await sleep(speedFactor);
   }
   return array;
@@ -239,7 +239,7 @@ async function swap(array, i, j, bars) {
 
   for (let k = 0; k < bars.length; k++) {
     if (k != i && k != j) {
-      bars[k].style.backgroundColor = "white";
+      bars[k].style.backgroundColor = "rgb(37, 155, 59)";
     }
   }
  
@@ -306,7 +306,7 @@ async function mergeSort(arr) {
 
 
   for (let k = 0; k < bars.length; k++) {
-    bars[k].style.backgroundColor = "white";
+    bars[k].style.backgroundColor = "rgb(37, 155, 59)";
   }
 
   return arr;

@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
+
 }
 
 .btn{
@@ -17,6 +17,15 @@
     
 }
 
+.barColor{
+    background-color: rgb(12, 12, 12);
+}
+
+.title{
+    background-color: rgb(12, 12, 12);
+
+}
+
 .btn_container{
     
     padding : 30px;
@@ -29,74 +38,77 @@
 }
 
 .container{
-
-    max-width: 100vw;
-    height: 50vh;
+    max-width: 50px;
+    height: 50px;
     width: 95%;
-    margin: 0 auto;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 0px 0px;
     color: yellowgreen;
+    background-color: rgb(12, 12, 12);
+
 }
 
 .bars_container{
-    border: 2px solid black;
-    padding : 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding : 20px;
     display: flex;
     flex-direction: row;
     color: yellowgreen;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
 }
 
 .bar{
     width: 10px;
-    background-color: lavenderblush;
+    background-color: rgb(37, 155, 59);
     margin: 0 1px;
     border-radius: 2px;
-}
-
-body{
-    background-color: burlywood;
+    color: red;
 }
 
 
-.buttons_container > button, select{
-    width: 200px;
-    height: 30px;
-    background-color:white;
-    border-radius: 5px;
-    color: black;
-    font-size: 14px;
-    cursor: pointer;
-    text-align: center;
-    transition:  0.2s ease-in-out;
-}
 
-.buttons_container{
-    margin-top: 5%;
-}
-
-
-button:hover{
-    background-color: #56697b;
-    color: black;
-}
-  
-  .about-section {
-    padding: 10px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-    margin-top: 10px;
-    padding-bottom: 30px;
-  }
-
-  .center{
+.center{
     margin-left : 250px ;
 
 
 }
+
+.row{
+    display: flex ;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    height: 60px;
+}
+
+.row :nth-child(2){
+    display: block;
+    margin-top: 10px;
+}
+
+.row :nth-child(3){
+    display: block;
+    margin-top: 10px;
+}
+
+.row :nth-child(4){
+    display: block;
+    margin-top: 10px;
+}
+
+.row :nth-child(5){
+    display: block;
+    margin-top: 10px;
+}
+
+
 
  
